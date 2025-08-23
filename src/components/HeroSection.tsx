@@ -1,3 +1,5 @@
+import Logo from './Logo'
+
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -11,13 +13,12 @@ const HeroSection = () => {
       </div>
 
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
+        {/* Logo Component */}
+        <div className="mb-12">
+          <Logo />
+        </div>
+        
         <div className="space-y-8">
-          <h1 className="text-6xl md:text-8xl font-bold text-white leading-tight">
-            <span className="gradient-text">MNet</span>
-            <br />
-            <span className="text-4xl md:text-6xl text-light">Innovation Hub</span>
-          </h1>
-          
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Transforming ideas into digital reality. We build the future with cutting-edge technology, 
             innovative solutions, and unparalleled expertise.
