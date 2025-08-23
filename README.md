@@ -4,7 +4,7 @@ A modern, futuristic website built with Next.js, TypeScript, and Tailwind CSS fe
 
 ## Features
 
-- 🚀 **Modern Design**: Futuristic UI with glass morphism effects
+- 🚀 **Modern Design**: Futuristic UI with glass morphism effects.
 - 📱 **Responsive**: Mobile-first responsive design
 - ✨ **Interactive**: Parallax scrolling and particle animations
 - 🎨 **Tailwind CSS**: Utility-first CSS framework
