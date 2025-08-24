@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Navigation from '../components/Navigation'
+import ScrollProgress from '../components/ScrollProgress'
 import ParticlesBg from '../components/ParticlesBg'
 import HeroSection from '../components/HeroSection'
 import ServicesSection from '../components/ServicesSection'
@@ -18,12 +20,24 @@ export default function Home() {
       </Head>
       
       <main className="min-h-screen">
+        <ScrollProgress />
+        <Navigation />
         <ParticlesBg />
-        <HeroSection />
-        <ServicesSection />
-        <CloudSection />
-        <AboutSection />
-        <ContactSection />
+        <div id="home">
+          <HeroSection />
+        </div>
+        <div id="services">
+          <ServicesSection />
+        </div>
+        <div id="cloud">
+          <CloudSection />
+        </div>
+        <div id="about">
+          <AboutSection />
+        </div>
+        <div id="contact">
+          <ContactSection />
+        </div>
         <Footer />
       </main>
     </>
