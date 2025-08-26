@@ -1,20 +1,22 @@
+import { getLogoPath } from '../utils/assets'
+
 const CloudSection = () => {
   const cloudProviders = [
     {
       name: "Amazon Web Services",
-      logo: "AWS",
+      logo: getLogoPath('aws'),
       description: "Leading cloud platform with comprehensive services",
       features: ["EC2", "Lambda", "S3", "RDS", "CloudFormation"]
     },
     {
       name: "Microsoft Azure",
-      logo: "Azure",
+      logo: getLogoPath('azure'),
       description: "Enterprise-grade cloud solutions",
       features: ["Virtual Machines", "Functions", "Blob Storage", "SQL Database", "ARM Templates"]
     },
     {
       name: "Google Cloud Platform",
-      logo: "GCP",
+      logo: getLogoPath('gcp'),
       description: "Innovative cloud infrastructure and AI services",
       features: ["Compute Engine", "Cloud Functions", "Cloud Storage", "Cloud SQL", "Deployment Manager"]
     }
@@ -43,8 +45,12 @@ const CloudSection = () => {
               className="group relative p-8 rounded-2xl glass-effect card-hover"
             >
               <div className="text-center mb-6">
-                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center text-2xl font-bold text-white">
-                  {provider.logo}
+                <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center">
+                  <img 
+                    src={provider.logo} 
+                    alt={`${provider.name} Logo`}
+                    className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                  />
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-3">
                   {provider.name}

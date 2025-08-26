@@ -1,0 +1,10 @@
+<svg width="120" height="72" viewBox="0 0 120 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- AWS Logo Background -->
+  <rect width="120" height="72" rx="8" fill="#232f3e"/>
+  
+  <!-- AWS Text -->
+  <text x="60" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ff9900">AWS</text>
+  
+  <!-- Cloud Icon -->
+  <path d="M30 25 Q40 15 50 25 Q60 15 70 25 Q80 15 90 25 L90 35 Q80 45 70 35 Q60 45 50 35 Q40 45 30 35 Z" fill="#ff9900" opacity="0.8"/>
+</svg>

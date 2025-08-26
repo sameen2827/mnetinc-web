@@ -1,0 +1,10 @@
+<svg width="120" height="72" viewBox="0 0 120 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Azure Logo Background -->
+  <rect width="120" height="72" rx="8" fill="#0078d4"/>
+  
+  <!-- Azure Text -->
+  <text x="60" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">Azure</text>
+  
+  <!-- Azure Icon -->
+  <path d="M25 20 L45 30 L25 40 L35 30 Z M55 20 L75 30 L55 40 L65 30 Z M85 20 L105 30 L85 40 L95 30 Z" fill="white" opacity="0.9"/>
+</svg>
